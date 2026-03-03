@@ -15,10 +15,6 @@ services:
       - "LETSENCRYPT_HOST=vanderdev.net"
     networks:
       - nginx-proxy
-    deploy:
-      resources:
-        limits:
-          memory: 256m
 
 networks:
   nginx-proxy:

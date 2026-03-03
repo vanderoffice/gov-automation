@@ -93,7 +93,7 @@ This is the first project in a reusable form automation platform. Architecture s
 - **Hosting:** VPS at vanderdev.net -- Ubuntu 24.04, Docker, nginx-proxy with auto-SSL, limited vCPU/RAM (no heavy compute)
 - **Database:** Existing Supabase stack on VPS -- use PostgREST API, create dedicated schema
 - **Routing:** Docker label `VIRTUAL_PATH=/ecosform` for nginx-proxy auto-discovery
-- **Repo:** `vanderoffice/Automation` GitHub repo, code lives in `ECOS/` directory
+- **Repo:** `vanderoffice/gov-automation` GitHub repo, code lives in `ECOS/` directory
 - **No PII:** All demo data uses fictional names, emails, departments
 - **Design:** Must match vanderdev.net look and feel -- dark theme, orange accents, Inter font
 

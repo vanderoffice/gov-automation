@@ -56,13 +56,13 @@ ECOS/
 
 ```bash
 git push origin main
-ssh vps "cd /root/Automation/ECOS && git pull && docker compose -f docker-compose.prod.yml up -d --build"
+ssh vps "cd /root/gov-automation/ECOS && git pull && docker compose -f docker-compose.prod.yml up -d --build"
 ```
 
 ### Demo Reset
 
 ```bash
-ssh vps "cat /root/Automation/ECOS/sql/099-reset-demo.sql | \
+ssh vps "cat /root/gov-automation/ECOS/sql/099-reset-demo.sql | \
   docker exec -i supabase-db psql -U postgres -d postgres"
 ```
 

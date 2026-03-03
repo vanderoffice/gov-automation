@@ -177,7 +177,7 @@ The ECOS MVP was functionally complete (7 phases, 21 plans, deployed 2026-02-07)
 ## Demo Reset Command
 
 ```bash
-ssh vps "cat /root/Automation/ECOS/sql/099-reset-demo.sql | docker exec -i supabase-db psql -U postgres -d postgres"
+ssh vps "cat /root/gov-automation/ECOS/sql/099-reset-demo.sql | docker exec -i supabase-db psql -U postgres -d postgres"
 ```
 
 ## Deployment
@@ -188,7 +188,7 @@ cd /Users/slate/Documents/GitHub/Automation
 git push origin main
 
 # On VPS
-ssh vps "cd /root/Automation && git pull origin main && cd ECOS && docker compose -f docker-compose.prod.yml up -d --build"
+ssh vps "cd /root/gov-automation && git pull origin main && cd ECOS && docker compose -f docker-compose.prod.yml up -d --build"
 ```
 
 ## Data Summary (Post-Reset)

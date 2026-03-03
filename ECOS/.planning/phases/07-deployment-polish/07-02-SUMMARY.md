@@ -76,7 +76,7 @@ Each task was committed atomically:
 
 **VPS-only files (not in repo):**
 - `/var/lib/docker/volumes/n8n-cloud-stack_vhost/_data/vanderdev.net_location` — Custom nginx location blocks for /ecosform/ and /supabase/ proxy routes
-- `/root/Automation/ECOS/.env.production` — VITE_SUPABASE_URL=https://vanderdev.net/supabase + ANON_KEY
+- `/root/gov-automation/ECOS/.env.production` — VITE_SUPABASE_URL=https://vanderdev.net/supabase + ANON_KEY
 
 ## Decisions Made
 
